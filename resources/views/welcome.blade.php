@@ -758,17 +758,17 @@
                     <a href="#about" class="nav-link text-gray-600 hover:text-indigo-600 px-3">
                         <i class="fas fa-user"></i> About
                     </a>
-                    <a href="#skills" class="nav-link text-gray-600 hover:text-indigo-600 px-3">
-                        <i class="fas fa-code"></i> Skills
-                    </a>
                     <a href="#services" class="nav-link text-gray-600 hover:text-indigo-600 px-3">
                         <i class="fas fa-cogs"></i> Services
                     </a>
-                    <a href="#projects" class="nav-link text-gray-600 hover:text-indigo-600 px-3">
-                        <i class="fas fa-project-diagram"></i> Projects
+                    <a href="#skills" class="nav-link text-gray-600 hover:text-indigo-600 px-3">
+                        <i class="fas fa-code"></i> Skills
                     </a>
                     <a href="#testimonials" class="nav-link text-gray-600 hover:text-indigo-600 px-3">
                         <i class="fas fa-quote-right"></i> Testimonials
+                    </a>
+                    <a href="#projects" class="nav-link text-gray-600 hover:text-indigo-600 px-3">
+                        <i class="fas fa-project-diagram"></i> Projects
                     </a>
                     <a href="#contact" class="nav-link text-gray-600 hover:text-indigo-600 px-3">
                         <i class="fas fa-envelope"></i> Contact
@@ -918,7 +918,7 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
                 <!-- Left column - About me content -->
-                <div class="lg:col-span-7 opacity-0 animate-about" style="animation-delay: 0.3s;">
+                <div class="lg:col-span-12 opacity-0 animate-about" style="animation-delay: 0.3s;">
                     <div
                         class="bg-gradient-to-br from-white to-indigo-50 p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition duration-500">
                         <h3 class="text-2xl font-semibold mb-6 text-gray-800 flex items-center">
@@ -926,22 +926,14 @@
                                 class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center text-white mr-3">
                                 <i class="fas fa-user-alt text-sm"></i>
                             </span>
-                            Professional Software Developer
+                            Professional Software and Website Developer
                         </h3>
 
                         <div class="space-y-6">
                             <p class="text-gray-600 leading-relaxed">
                                 I'm a passionate software developer with expertise in PHP, Laravel, and WordPress.
-                                I currently work remotely as a freelance developer at Pixel Weblab, where I develop
+                                I currently work remotely as a freelance developer. I develop
                                 custom web applications and solutions for clients across various industries.
-                            </p>
-
-                            <p class="text-gray-600 leading-relaxed">
-                                Additionally, I freelance on various online marketplaces, helping businesses and
-                                individuals
-                                bring their digital ideas to life. My goal is to create efficient, scalable, and
-                                user-friendly
-                                applications that solve real-world problems.
                             </p>
 
                             <!-- Professional highlights -->
@@ -986,81 +978,6 @@
                                 <div class="flex flex-col">
                                     <span class="text-gray-500 text-sm">Location</span>
                                     <span class="text-gray-800 font-medium">Bangladesh</span>
-                                </div>
-                            </div>
-
-                            <div class="mt-8 flex space-x-4">
-                                <a href="#"
-                                    class="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1">
-                                    <i class="fas fa-download mr-2"></i>
-                                    Download CV
-                                </a>
-                                <a href="#contact"
-                                    class="inline-flex items-center px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg border-2 border-indigo-600 hover:bg-indigo-50 transition duration-300">
-                                    <i class="fas fa-envelope mr-2"></i>
-                                    Contact Me
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Right column - Experience & Services -->
-                <div class="lg:col-span-5 space-y-10">
-                    <!-- Experience Timeline -->
-                    <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 transform transition duration-500 opacity-0 animate-about"
-                        style="animation-delay: 0.4s;">
-                        <h3 class="text-xl font-semibold mb-6 text-gray-800 flex items-center">
-                            <span
-                                class="w-8 h-8 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 mr-2">
-                                <i class="fas fa-briefcase text-sm"></i>
-                            </span>
-                            Work Experience
-                        </h3>
-
-                        <div class="space-y-8 relative">
-                            <!-- Timeline line -->
-                            <div class="absolute top-0 left-4 w-0.5 h-full bg-indigo-100"></div>
-
-                            <!-- Experience item 1 -->
-                            <div class="relative pl-10">
-                                <div
-                                    class="absolute left-1 top-1 w-6 h-6 rounded-full border-2 border-indigo-600 bg-white z-10">
-                                </div>
-                                <div class="bg-indigo-50 rounded-lg p-4">
-                                    <div class="text-indigo-600 font-semibold">Pixel Weblab</div>
-                                    <div class="text-gray-700">Senior Developer</div>
-                                    <div class="text-gray-500 text-sm mb-2">2020 - Present</div>
-                                    <p class="text-gray-600 text-sm">Leading development of custom web applications and
-                                        e-commerce solutions.</p>
-                                </div>
-                            </div>
-
-                            <!-- Experience item 2 -->
-                            <div class="relative pl-10">
-                                <div
-                                    class="absolute left-1 top-1 w-6 h-6 rounded-full border-2 border-indigo-400 bg-white z-10">
-                                </div>
-                                <div class="bg-indigo-50 rounded-lg p-4">
-                                    <div class="text-indigo-600 font-semibold">TechSolutions Inc.</div>
-                                    <div class="text-gray-700">Web Developer</div>
-                                    <div class="text-gray-500 text-sm mb-2">2018 - 2020</div>
-                                    <p class="text-gray-600 text-sm">Developed and maintained client websites and
-                                        applications.</p>
-                                </div>
-                            </div>
-
-                            <!-- Experience item 3 -->
-                            <div class="relative pl-10">
-                                <div
-                                    class="absolute left-1 top-1 w-6 h-6 rounded-full border-2 border-indigo-300 bg-white z-10">
-                                </div>
-                                <div class="bg-indigo-50 rounded-lg p-4">
-                                    <div class="text-indigo-600 font-semibold">Freelance</div>
-                                    <div class="text-gray-700">WordPress Developer</div>
-                                    <div class="text-gray-500 text-sm mb-2">2016 - 2018</div>
-                                    <p class="text-gray-600 text-sm">Built custom WordPress themes and plugins for
-                                        clients.</p>
                                 </div>
                             </div>
                         </div>
@@ -1336,13 +1253,9 @@
                         His attention to detail and problem-solving skills are exceptional."
                     </p>
                     <div class="flex items-center">
-                        <div class="w-12 h-12 rounded-full mr-4 overflow-hidden">
-                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith"
-                                class="w-full h-full object-cover">
-                        </div>
                         <div>
-                            <h4 class="font-semibold">John Smith</h4>
-                            <p class="text-gray-500 text-sm">CEO, TechRetail</p>
+                            <h4 class="font-semibold">Abdul Kader</h4>
+                            <p class="text-gray-500 text-sm">CEO, MamaEnterprise</p>
                         </div>
                     </div>
                 </div>
@@ -1367,13 +1280,9 @@
                         responsive platform that has significantly increased our conversion rates."
                     </p>
                     <div class="flex items-center">
-                        <div class="w-12 h-12 rounded-full mr-4 overflow-hidden">
-                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson"
-                                class="w-full h-full object-cover">
-                        </div>
                         <div>
-                            <h4 class="font-semibold">Sarah Johnson</h4>
-                            <p class="text-gray-500 text-sm">Marketing Director, EduLearn</p>
+                            <h4 class="font-semibold">Rafiq Uddin</h4>
+                            <p class="text-gray-500 text-sm">CEO at BDdarpan.com</p>
                         </div>
                     </div>
                 </div>
@@ -1399,13 +1308,9 @@
                         His custom WordPress solutions have helped us streamline our operations."
                     </p>
                     <div class="flex items-center">
-                        <div class="w-12 h-12 rounded-full mr-4 overflow-hidden">
-                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Michael Davis"
-                                class="w-full h-full object-cover">
-                        </div>
                         <div>
-                            <h4 class="font-semibold">Michael Davis</h4>
-                            <p class="text-gray-500 text-sm">Founder, ConsultPro</p>
+                            <h4 class="font-semibold">Saeedul Mostafa</h4>
+                            <p class="text-gray-500 text-sm">Founder, IQRA LMS.Co</p>
                         </div>
                     </div>
                 </div>
@@ -1425,30 +1330,12 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Project 1 -->
+                <!-- Project 1: Blog Website -->
                 <div
                     class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-xl">
                     <div class="h-48 relative overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-                            alt="E-commerce Platform" class="w-full h-full object-cover">
-                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
-                        <div class="absolute bottom-0 left-0 p-4">
-                            <h3 class="text-white text-xl font-bold">E-commerce Platform</h3>
-                            <p class="text-gray-300 text-sm">PHP/Laravel, MySQL, JavaScript</p>
-                        </div>
-                    </div>
-                    <div class="p-5">
-                        <p class="text-gray-600">A full-featured e-commerce platform with payment integration,
-                            inventory management and analytics dashboard.</p>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div
-                    class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-xl">
-                    <div class="h-48 relative overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-                            alt="Blog & Content Management" class="w-full h-full object-cover">
+                        <img src="{{ asset('img/blogwebsite.png') }}" alt="Blog Website"
+                            class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
                         <div class="absolute bottom-0 left-0 p-4">
                             <h3 class="text-white text-xl font-bold">Blog & Content Management</h3>
@@ -1456,26 +1343,59 @@
                         </div>
                     </div>
                     <div class="p-5">
-                        <p class="text-gray-600">A custom WordPress implementation with tailored content
-                            management capabilities and specialized user roles.</p>
+                        <p class="text-gray-600">A dynamic blog platform built with WordPress, featuring custom
+                            plugins, SEO optimization, and easy content management.</p>
+                        <a href="https://bddarpan.com/"
+                            class="mt-4 inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-2 rounded-lg transition transform hover:scale-105"
+                            target="_blank">
+                            View Project
+                        </a>
                     </div>
                 </div>
 
-                <!-- Project 3 -->
+                <!-- Project 2: E-commerce Website -->
                 <div
                     class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-xl">
                     <div class="h-48 relative overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
-                            alt="Financial Dashboard" class="w-full h-full object-cover">
+                        <img src="{{ asset('img/ecommercewebsite.png') }}" alt="E-commerce Platform"
+                            class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
                         <div class="absolute bottom-0 left-0 p-4">
-                            <h3 class="text-white text-xl font-bold">Financial Dashboard</h3>
-                            <p class="text-gray-300 text-sm">Laravel, Vue.js, API Integration</p>
+                            <h3 class="text-white text-xl font-bold">E-commerce Platform</h3>
+                            <p class="text-gray-300 text-sm">PHP/Laravel, MySQL, JavaScript</p>
                         </div>
                     </div>
                     <div class="p-5">
-                        <p class="text-gray-600">An interactive financial dashboard with real-time data
-                            visualization, reporting, and user authentication.</p>
+                        <p class="text-gray-600">A powerful e-commerce website with secure payment gateways, order
+                            tracking, and an intuitive admin dashboard.</p>
+                        <a href="https://tonatuny.com/"
+                            class="mt-4 inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-2 rounded-lg transition transform hover:scale-105"
+                            target="_blank">
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Learning Management System -->
+                <div
+                    class="bg-white rounded-xl shadow-lg overflow-hidden transform transition duration-500 hover:-translate-y-2 hover:shadow-xl">
+                    <div class="h-48 relative overflow-hidden">
+                        <img src="{{ asset('img/lmswebsite.png') }}" alt="LMS Platform"
+                            class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-70"></div>
+                        <div class="absolute bottom-0 left-0 p-4">
+                            <h3 class="text-white text-xl font-bold">Learning Management System</h3>
+                            <p class="text-gray-300 text-sm">Laravel, Tailwind CSS, Livewire</p>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <p class="text-gray-600">An interactive LMS platform for online courses, quizzes, progress
+                            tracking, and student-teacher collaboration.</p>
+                        <a href="https://iqraoa.com/"
+                            class="mt-4 inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-2 rounded-lg transition transform hover:scale-105"
+                            target="_blank">
+                            View Project
+                        </a>
                     </div>
                 </div>
             </div>
@@ -1488,6 +1408,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white section-transition">
@@ -1523,16 +1444,6 @@
                             <div>
                                 <h4 class="font-semibold mb-1">Location</h4>
                                 <p class="text-gray-600">Bangladesh - Working Worldwide</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start">
-                            <div
-                                class="bg-indigo-100 p-3 rounded-full text-indigo-600 mr-4 transform transition hover:scale-110 duration-300">
-                                <i class="fas fa-building"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold mb-1">Company</h4>
-                                <p class="text-gray-600">Pixel Weblab</p>
                             </div>
                         </div>
                     </div>
@@ -1691,7 +1602,7 @@
                         </li>
                         <li class="flex items-center text-gray-400 hover:text-white transition duration-200">
                             <i class="fas fa-phone mr-3 text-indigo-400"></i>
-                            <span>01815811601</span>
+                            <span>+880 1829-698483</span>
                         </li>
                         <li class="flex items-center text-gray-400 hover:text-white transition duration-200">
                             <i class="fas fa-map-marker-alt mr-3 text-indigo-400"></i>
